@@ -1,0 +1,487 @@
+
+
+*{
+    transition: all 0.3s ease;
+    font-family: 'Open Sans', sans-serif;
+}
+.white{
+    color: #fff !important;
+}
+.b{
+    font-weight: bold;
+}
+.bg-theme{
+    background-color: #6D5F5F;
+}
+.p-high{
+    padding: 100px 0;
+}
+.mt-high{
+    margin-top: 100px;
+}
+.mb-high{
+    margin-bottom: 100px;
+}
+.theme{
+    color: #6D5F5F;
+}
+.my-btn{
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.btn-white{
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #6D5F5F;
+    padding: 12px 30px;
+    border-radius: 30px;
+}
+.btn-white:hover{
+    background-color: rgb(109, 95, 95);
+    border: 1px solid rgb(109, 95, 95);
+    color: #fff;
+}
+.btn-theme{
+    background-color: #6D5F5F;
+    color: #fff;
+    border: 1px solid #6D5F5F;
+}
+.btn-theme:hover{
+    background-color: #fff;
+    color:#6D5F5F;
+}
+
+
+
+  /* header  */
+header .nav-link{
+    font-weight: 600;
+}
+.nav-item{
+    margin: 8px 15px;
+}
+.navbar-collapse {
+    flex-grow: 0;
+}
+.search{
+    background-color: #d8d8d8;
+    margin-left: 20px;
+    border-radius: 25px;
+}
+.form-control:focus{
+    border-color:#6D5F5F !important;
+    box-shadow: none !important;
+}
+.search-icon{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    color: #6e6e6e;
+}
+.navbar-toggler{
+    border:unset;
+}
+.nav-link{
+    position: relative;
+}
+.nav-link::after{
+    position: absolute;
+    content: "";
+    background-color: #ffac46;
+    width: 0;
+    height: 2px;
+    top: 80%;
+    left: 0;
+    transition: all 0.5s ease;
+}
+.nav-item:hover .nav-link::after{
+    width: 100%;
+}
+.nav-item:hover .nav-link{
+    color: #ffac46 !important;
+}
+
+/* banner 1 */
+.banner-bg-1{
+    background-image: url('../images/Group-11.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.banner-1-heading{
+    color: #DEB37E;
+    font-size: 100px;
+    text-shadow: 5px -5px 10px #ccc;
+    font-weight: 800;
+}
+
+/* lets go  */
+.letsGo h1{
+    color: #E2A355;
+    font-size: 48px;
+}
+.bg-theme{
+    color: #fff;
+    background-color: #6D5F5F;
+}
+.bg-leaf-1{
+    background-image: url(../images/Shadow5\.png);
+    background-repeat: no-repeat;
+    background-position:left bottom;
+    background-size: 25%;
+}
+.letsGo .my-btn{
+    width: 25%;
+    padding: 15px 20px;
+    border-radius: 30px;
+} 
+.letsGo .card:hover{
+    box-shadow: 0 0 20px #bbb;
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+.text-cards .card:hover{
+    box-shadow: 0 0 20px #bbb;
+    cursor: pointer;
+}
+
+
+/* discount  */
+
+.discount h1{
+    font-size: 60px;
+    font-size: 700;
+}
+.discount p{
+    font-size: 24px;
+}
+.btn-pink{
+    color: #fff;
+    background-color: #ffac46;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 30px;
+}
+.btn-pink:hover{
+    background-color: #DEB37E;
+}
+
+/* subscribe  */
+
+.subscribe-bg{
+    background-color: #E2A355;
+}
+.subscribe-title{
+    font-size: 72px;
+    color: white;
+    font-weight: 800;
+}
+.subscribe-text{
+    font-size: 24px;
+    color: #444;
+}
+.subscribe-btn{
+    position: absolute;
+    top: 0%;
+    right: 0;
+    padding: 13px 40px !important;
+    border-radius: 30px;
+    border: 1px solid #6D5F5F;
+    font-weight: bold;
+}
+.subscribe-bg input{
+    padding:10px 20px;
+    border-radius: 30px;
+    border: 1px solid #6D5F5F;
+}
+.subscribe-btn:hover{
+    background-color: #8d7c7c;
+}
+
+/* hiking mountain  */
+.bg-mountain{
+    background-color: #99928C;
+}
+.bg-mountain h1{
+    font-size: 64px;
+    font-weight:500;
+    color: #fff;
+}
+.bg-mountain p{
+    font-size: 24px;
+    color: #fff;
+}
+.shape-double{
+    transform: translateY(50%);
+}
+.bg-leaf-2{
+    background-image: url('../images/Shadow5.png');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: left center;
+}
+
+/* Explore */
+.bg-explore{
+    background-image: url('../images/Image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+}
+.explore h1{
+    font-size: 100px;
+    font-weight: bolder;
+    text-shadow: 5px -5px 5px #aaa;
+    font-style: italic;
+    color: #444;
+    font-weight: 900;
+}
+.pink-text{
+    color: #DEB37E;
+}
+.shape-22{
+    transform: translateY(-50%);
+}
+.pink{
+    color: #E2A355;
+}
+/* review  */
+.review h1{
+    font-size: 100px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0;
+}
+.review{
+    color: #555;
+}
+.review p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.bg-leaf-3{
+    background-image: url('../images/Design.png');
+    background-repeat: no-repeat;
+    background-position:right bottom;
+    background-size: 40%;
+}
+
+
+
+
+/* footer  */
+.media-bg{
+    width: 36px;
+    height: 36px;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 15px;
+    padding-top: 2px;
+    cursor: pointer;
+}
+.media-bg:hover{
+    transform: rotate(20deg);
+}
+.bg-footer{
+    background-image: url('..images/Shape4.png');
+    background-size: cover;
+    height: 100px;
+    background-position: 0 50%;
+    z-index: 99;
+}
+.footer-shade{
+    position: absolute;
+    bottom: 100%;
+    transform: translateY(50%);
+}
+footer ul{
+    padding: 0%;
+    margin: 0%;
+}
+footer li{
+    list-style-type: none;
+    padding: 5px 0;
+}
+a{
+    text-decoration: none;
+}
+footer a{
+    position: relative;
+}
+footer a::after{
+    position: absolute;
+    content: "";
+    background-color: #fff;
+    height: 2px;
+    width: 0%;
+    top: 100%;
+    left: 0;
+    transition: all 0.5s ease;
+}
+footer li:hover a::after{
+    width:100%;
+}
+
+
+
+@media(max-width:1250px){
+    .banner-1-heading{
+        font-size: 80px;
+    }
+    .discount h1{
+        font-size: 48px;
+    }
+    .discount p{
+        font-size: 18px;
+    }
+    .explore h1{
+        font-size: 60px;
+        font-weight: 800;
+    }
+    .explore .p-high{
+        padding:60px 0;
+    }
+    
+}
+
+@media(max-width:991px){
+    .navbar-toggler:focus{
+        box-shadow: unset;
+    }
+    .container-xxl{
+        padding: 0 1.5rem;
+    }
+    .discount h1{
+        font-size: 36px;
+        font: 600;
+    }
+    .discount p{
+        font-size: 16px;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar{
+        background-color: #fff;
+    }
+    .nav-item:hover .nav-link::after{
+        width: 0    ;
+    }
+    .explore h1{
+        font-size: 50px;
+        font-weight: 800;
+    }
+    .explore .p-high{
+        padding:40px 0;
+    }
+}
+
+@media(max-width:768px){
+    .letsGo .my-btn {
+        width: 75%;
+        padding: 15px 20px;
+        border-radius: 30px;
+    }
+    .banner-1-heading{
+        font-size: 48px;
+    }
+    .bg-leaf-1{
+        background-size: 50%;
+    }
+    .bg-leaf-2{
+        background-size: 50%;
+    }
+    .bg-leaf-3{
+        background-size: 50%;
+    }
+    .bg-mountain h1{
+        font-size: 48px;
+    }
+    .bg-mountain p{
+        font-size: 16px;
+    }
+    .bg-mountain h1{
+        font-size: 48px;
+    }
+    .bg-mountain .col-12{
+        padding:0 1.5rem;
+    }
+    .discount button{
+        margin-bottom: 4rem;
+    }
+    .subscribe-title{
+        font-size: 48px;
+        font-weight: 800;
+    }
+    .subscribe-text{
+        font-size: 20px;
+    }
+    .explore h1{
+        font-size:48px;
+        font-weight: 800;
+    }
+    .explore .p-high{
+        padding:60px 0;
+    }
+}
+
+
+@media(max-width:576px){
+    .bg-leaf-1{
+        background-size: 75%;
+    }
+    .bg-leaf-2{
+        background-size: 75%;
+    }
+    .bg-leaf-3{
+        background-size: 75%;
+    }
+    .bg-mountain h1{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .bg-mountain p{
+        font-size: 12px;
+    }
+    .bg-leaf-3 .p-high{
+        padding-top: 0;
+    }
+    .discount h1{
+        font-size: 24px;
+        font-weight: 800;
+    }
+    .discount p{
+        font-size: 12px;
+    }
+    .subscribe-btn{
+        display: block;
+        position: unset;
+        margin-top: 1rem;
+    }
+    .subscribe-bg form{
+        width: 100% !important;
+    }
+    .subscribe-bg p{
+        font-size: 16px;
+        padding-bottom: 1.5rem;
+    }
+    footer ul{
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+    footer h4{
+        text-align: center;
+        font-weight: 800;
+    }
+    .explore h1{
+        font-size:28px;
+        font-weight: 800;
+    }
+    .explore .p-high{
+        padding:50px 0;
+    }
+}
